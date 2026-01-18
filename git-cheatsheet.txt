@@ -1,0 +1,57 @@
+Настройки использования гит
+git config --global user.name "dragonyafa134"
+git config --global user.email "dasha.afanaseva.1206@mail.ru"
+
+Переход в другую папку 
+cd Documents/
+
+Создания новой папку
+mkdir new_papka
+
+Проверка папок 
+ls
+
+Проверить текущий путь
+pwd
+
+Создании новую локальную ветку
+git init -b main
+
+Привязка удаленного репоз к локальному 
+git remote add origin ссылка_на_репозиторий
+
+Проверка подключения удаленного репоз
+git remote -v
+
+Создание консольного приложения .NET
+dotnet new console -o Program --use-program-main
+
+Проверка состояни репоз
+git status
+
+Добавления все файлы в индекс
+git add .
+
+Создания комента 
+git commit -m "Initial commit: create console app"
+
+отпрака в гит 
+git push -u origin main
+
+Просмотр историю коммита 
+git log
+
+Создания ветки 
+git branch hotfix
+
+Просмотр всех веток 
+git branch
+
+Создания и переклбчения на ветку
+git switch -c feature
+
+Переключение на предыдущую ветку
+git switch -
+
+Удаляем ветку
+git branch -d hotfix
